@@ -75,7 +75,14 @@ footer.btn{
 
 /* Responsive */
 @media screen and (max-width:575.98px) {
-    
+    /* centralisation */
+    .center{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-justify: center;
+
+    }
     .mobile{
         display: block;
     }
