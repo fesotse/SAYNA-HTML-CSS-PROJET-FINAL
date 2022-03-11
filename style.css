@@ -1,0 +1,51 @@
+:root{
+    --bg-primary-color:#d35649;
+    --bg-primary-gray: #98a5a5;
+    --bg-primary-blue: #509bd7;
+    --bg-gray-footer: #1f1f1f;
+    --bg-gray-footer-btn: #444;
+    --bg-primary-purple: #575a89;
+    --bg-light-gray: #eee;
+    
+}
+.primary-color{
+    color: var(--bg-primary-color);
+}
+.primary-blue{
+    color:var(--bg-primary-blue)
+}
+
+/* header */
+header{
+    background-color: var(--bg-primary-color);
+}
+header div embed{
+    width: 70px;
+}
+    /*hover header*/
+.primary-gray:hover{
+    color: var(--bg-primary-gray)
+}
+/* Mise en place de filtre pour les icônes */
+        /*blanchissement*/
+    .invert{
+        filter: brightness(0) invert(1);
+    }
+        /* rotate image */
+    .rotate{
+        transform: rotate(45deg);
+    }
+
+
+/* P1 */
+.p1{
+    background-image: url(Assets-20220310T082526Z-001/Assets/Images/group-1.jpg);
+    background-size: cover;
+}
+/* footer */
+footer{
+    background-color: var(--bg-gray-footer);
+}
+footer.btn{
+    background-color: var(--bg-gray-footer-btn);
+}
