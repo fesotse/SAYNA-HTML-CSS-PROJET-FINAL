@@ -11,8 +11,24 @@
 .primary-color{
     color: var(--bg-primary-color);
 }
+
+.primary-gray{
+    color:var(--bg-primary-gray);
+}
 .primary-blue{
     color:var(--bg-primary-blue)
+}
+.gray-footer{
+    color:var(--bg-gray-footer)
+}
+.gray-footer-btn{
+    color:var(--bg-gray-footer-btn)
+}
+.primary-purple{
+    color:var(--bg-primary-purple)
+}
+.light-gray{
+    color:var(--bg-light-gray)
 }
 
 /* header */
@@ -48,4 +64,13 @@ footer{
 }
 footer.btn{
     background-color: var(--bg-gray-footer-btn);
+}
+
+
+/* Responsive */
+@media screen and maxwidth(575.98px) {
+    .mobile{
+        display: block;
+    }
+    
 }
