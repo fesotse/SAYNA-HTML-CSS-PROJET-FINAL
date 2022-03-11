@@ -33,6 +33,9 @@
 .bg-light-gray{
     background-color: var(--bg-light-gray);
 }
+.bg-gray-footer-btn{
+    background-color: var(--bg-gray-footer-btn);
+}
 
 p{
     margin:0;
@@ -64,6 +67,10 @@ header div embed{
     background-image: url(Assets-20220310T082526Z-001/Assets/Images/group-1.jpg);
     background-size: cover;
 }
+
+
+
+
 /* footer */
 footer{
     background-color: var(--bg-gray-footer);
@@ -71,8 +78,17 @@ footer{
 footer.btn{
     background-color: var(--bg-gray-footer-btn);
 }
+    /* HOver */
+.sur:hover{
+    color: var(--bg-primary-color);
+    text-decoration: underline;
+}
 
 
+/* sunny section */
+.sunny{
+    box-shadow: 2px 2px 5px #333;
+}
 /* Responsive */
 @media screen and (max-width:575.98px) {
     /* centralisation */
