@@ -30,7 +30,13 @@
 .light-gray{
     color:var(--bg-light-gray)
 }
+.bg-light-gray{
+    background-color: var(--bg-light-gray);
+}
 
+p{
+    margin:0;
+}
 /* header */
 header{
     background-color: var(--bg-primary-color);
@@ -68,7 +74,8 @@ footer.btn{
 
 
 /* Responsive */
-@media screen and maxwidth(575.98px) {
+@media screen and (max-width:575.98px) {
+    
     .mobile{
         display: block;
     }
