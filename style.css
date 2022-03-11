@@ -8,6 +8,7 @@
     --bg-light-gray: #eee;
     
 }
+
 .primary-color{
     color: var(--bg-primary-color);
 }
@@ -48,18 +49,16 @@ header div embed{
     width: 70px;
 }
     /*hover header*/
-.primary-gray:hover{
-    color: var(--bg-primary-gray)
+.nav li ul li:hover{
+    filter: invert(73%) sepia(6%) saturate(389%) hue-rotate(131deg) brightness(89%) contrast(85%);
 }
+
 /* Mise en place de filtre pour les icônes */
         /*blanchissement*/
     .invert{
         filter: brightness(0) invert(1);
     }
-        /* rotate image */
-    .rotate{
-        transform: rotate(45deg);
-    }
+
 
 
 /* P1 */
@@ -79,11 +78,14 @@ footer.btn{
     background-color: var(--bg-gray-footer-btn);
 }
     /* HOver */
-.sur:hover{
+
+a.sur:hover{
     color: var(--bg-primary-color);
     text-decoration: underline;
 }
-
+.rso:hover{
+    filter: invert(72%) sepia(30%) saturate(4409%) hue-rotate(179deg) brightness(87%) contrast(93%);
+}
 
 /* sunny section */
 .sunny{
