@@ -40,6 +40,9 @@
 .bg-primary-blue{
     background-color: var(--bg-primary-blue);
 }
+.border-primary-blue{
+    border-color: var(--bg-primary-blue);
+}
 .gray-footer{
     color:var(--bg-gray-footer)
 }
@@ -151,6 +154,17 @@ header div embed{
     bottom: 20px;
     margin-left: 2%;
     
+}
+
+
+/* Search page style */
+.book button{
+    height: 50%;
+    margin-top: 2vh;
+}
+.book input{
+    width: 80%;
+    border-color: var;
 }
 /* footer */
 footer{
