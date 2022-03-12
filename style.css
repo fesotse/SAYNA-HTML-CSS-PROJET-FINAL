@@ -97,13 +97,14 @@ header div embed{
     top: 0;
     width: 100%;
     left: 100%;
-    color: #121e59;
+    color: #121e59; 
     z-index: 1;
     opacity: 01;
 }
     /*Hover boutton Apply*/
 .Apply:hover{
     opacity: 1;
+    background-color: #121e59;
 }
 
 /*hover sur*/
