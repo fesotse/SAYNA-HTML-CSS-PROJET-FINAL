@@ -29,14 +29,14 @@
                             </ul>
                     </li>
                     <li class="px-2 ms-auto my-0">
-                        <ul class="nav nav-pills mx-auto text-center my-0 center">
-                            <li class="invert my-2 fs-5 me-1"><img src="Assets-20220310T082526Z-001/Assets/Icones/search_icon.svg" style="width:5vh" alt=""></li>
+                        <ul class="nav nav-pills mx-auto text-center mb-0 my-1 center">
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="Search.html"><img src="Assets-20220310T082526Z-001/Assets/Icones/search_icon.svg" style="width:3vh" alt=""></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="Search.html">Search</a></p></li>
-                            <li class="invert my-2 fs-5 me-1"><i class="fa-solid fa-user"></i></li>
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="About.html"><i class="fa-solid fa-user"></i></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="About.html">About</a></p></li>
-                            <li class="invert my-2 fs-5 me-1"><i class="fa-solid fa-rss"></i></li>
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="#"><i class="fa-solid fa-rss"></i></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="#">Blog</a></p></li>
-                            <li class="invert my-2 fs-5 me-1"><i class="fa-solid fa-bars"></i></li>
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="#"><i class="fa-solid fa-bars"></i></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="#">More</a></p></li>
                         </ul>
                     </li>
@@ -50,7 +50,7 @@
 <!-- main section -->
 
 <main>
-    <section class="sunny fs-6 m-3 p-4">
+    <section id="1" class="sunny fs-6 m-3 p-4">
         <div class="d-flex mx-auto text-center justify-content-center">
             <p class="fs-3 fw-bold text-center primary-color"><img src="Assets-20220310T082526Z-001/Assets/Icones/rouage_icon.svg" style="width: 5vh ;filter: invert(75%) sepia(98%) saturate(4661%) hue-rotate(320deg) brightness(79%) contrast(115%);;" alt=""> A SUNNY BEACH DAY</p>
         </div>
@@ -86,10 +86,10 @@
                 <p class="center"> Daytime: <strong class="primary-blue fw-bold">Daylight</strong></p>
             </div>
         </div>
-        <button class="border-0 ms-auto d-flex me-2 py-2 px-2" style="background-color: var(--bg-primary-blue);">
-            <i class="fa-solid fa-child invert my-1 mx-1"></i>
-            <p class="text-white ">Apply</p>
-        </button>
+            <button class= "Apply border-0 ms-auto d-flex py-2 px-2" style="background-color: var(--bg-primary-blue);">
+                <i class="fa-solid fa-child invert my-1 mx-1"></i>
+                <p class="text-white ">Apply</p>
+            </button>
         <div class="d-sm-flex justify-content-center my-1 fs-6">
             <div class="d-flex">
                 <div class="d-flex">
@@ -101,7 +101,7 @@
                     <p class="text-dark me-4 text-nowrap">Bring +1</p> 
                 </div>
                 <div class="d-flex">
-                    <img src="Assets-20220310T082526Z-001/Assets/Icones/day_icon.svg" style="width: 5vh; filter: invert(53%) sepia(26%) saturate(923%) hue-rotate(164deg) brightness(101%) contrast(96%)" alt="">
+                    <img src="Assets-20220310T082526Z-001/Assets/Icones/day_icon.svg" style="width: 3vh; filter: invert(53%) sepia(26%) saturate(923%) hue-rotate(164deg) brightness(101%) contrast(96%)" alt="">
                     <p class="text-dark me-4">Day</p> 
                 </div>
             </div>
@@ -111,7 +111,7 @@
                     <p class="text-dark me-4 text-nowrap">Host Verified</p> 
                 </div>
                 <div class="d-flex">
-                    <img src="Assets-20220310T082526Z-001/Assets/Icones/yourway_icon.svg" style="width: 5vh; filter: invert(53%) sepia(26%) saturate(923%) hue-rotate(164deg) brightness(101%) contrast(96%);" alt="your-way">
+                    <img src="Assets-20220310T082526Z-001/Assets/Icones/yourway_icon.svg" style="width: 3vh; filter: invert(53%) sepia(26%) saturate(923%) hue-rotate(164deg) brightness(101%) contrast(96%);" alt="your-way">
                     <p class="text-dark me-4">Your Way</p> 
                 </div>
             </div> 
@@ -122,8 +122,9 @@
         </div>
     </section>
     <section class=" container m-3 p-1 bg-light-gray" style="width: 90%;">
-        <p class="text-dark fs-5"> <i class="fa-solid fa-book-medical m-1"></i>CLICK TO VIEW MORE DETAILS. </p>
-         
+        <a href="#1" class="text-decoration-none text-dark">
+        <p class="sur text-dark fs-5"> <i class="fa-solid fa-book-medical m-1"></i>CLICK TO VIEW MORE DETAILS. </p>
+    </a>
     </section>
     <section class="mapdirection">
         <div class="d-flex justify-content-center primary-color">
@@ -173,12 +174,12 @@
                 <div class="mx-3 text-center">
                     <p class="fs-4 fw-bold text-white text-center"> Contact</p>
                     <p class="fs-6 text-white mb-0">Have a question or sugestion?</p>
-                    <a href="mailto:contact@events.com?subject=Ask Me Anything" class="text-center primary-color fs-6 text-decoration-none sur">contact@events.com</a>
+                    <a href="mailto:contact@events.com?subject=Ask Me Anything" class="text-center primary-color fs-6 text-decoration-none sur"><p class="sur">contact@events.com</p></a>
                 </div>
                 <div class="mx-3 text-center">
                     <p class="fs-4 fw-bold text-white text-center"> About</p>
                     <p class="fs-6 text-white mb-0">[Events] is an online plateform that works to improve and increase social <br>
-                    social life connections, when this nightmare that we are curently living in is over <a href="About.html" class="primary-color sur text-decoration-none"> learn more.</a></P>
+                    social life connections, when this nightmare that we are curently living in is over</p><a href="About.html" class="sur text-decoration-none text-primary-color" style="color:primary-color;"><p class="sur">learn more.</p> </a>
                 </div>
             </div>
 

@@ -31,14 +31,14 @@
                             </ul>
                     </li>
                     <li class="px-2 ms-auto my-0">
-                        <ul class="nav nav-pills mx-auto text-center my-0 center">
-                            <li class="invert my-2 fs-5 me-1"><i class="fa-regular fa-magnifying-glass"></i></li>
+                        <ul class="nav nav-pills mx-auto text-center mb-0 mt-1 center">
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="Search.html"><img src="Assets-20220310T082526Z-001/Assets/Icones/search_icon.svg" style="width:3vh" alt=""></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="Search.html">Search</a></p></li>
-                            <li class="invert my-2 fs-5 me-1"><i class="fa-solid fa-user"></i></li>
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="About.html"><i class="fa-solid fa-user"></i></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="About.html">About</a></p></li>
-                            <li class="invert my-2 fs-5 me-1"><i class="fa-solid fa-rss"></i></li>
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="#"><i class="fa-solid fa-rss"></i></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="#">Blog</a></p></li>
-                            <li class="invert my-2 fs-5 me-1"><i class="fa-solid fa-bars"></i></li>
+                            <li class="invert my-2 fs-5 me-1"><a class="text-light text-center text-decoration-none fs-5" href="#"><i class="fa-solid fa-bars"></i></a></li>
                             <li><p class="my-2 me-4 d-flex text-top d-none d-sm-block"><a class="text-light text-center text-decoration-none fs-5" href="#">More</a></p></li>
                         </ul>
                     </li>
@@ -51,41 +51,47 @@
 
     <!--Section p1-->
     <section class="container-fluid p1">
-        <div class="text-white fw-bolder fs-1">
+        <div class="text-white fw-bolder fs-1 shadow" style="padding:2vh 1vh 1vh 1vh;">
             <p class="text-center"> [Events]... your gateway to connect with events around your area </p>
         </div>
-        <div class="mx-auto">
-            <p class="text-center">SEARCH EVENTS NEARBY</p>
-            <div class="input-group mb-3 ">
-                <input type="text" class="form-control white border border-2 border-black" placeholder="Insert your location here" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="input-group-text text-white bg-primary-color" id="basic-addon2">SEARCH</span>
+        <div class="mx-auto search rounded">
+            <p class="text-center my-1 fs-4">SEARCH EVENTS NEARBY</p>
+            <div class="d-flex border border-1 border-dark rounded">
+                <input type="text" class="form-control white m-0" placeholder="Insert your location here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="m-0 input-group-text text-white bg-primary-color border-primary-color -primary-color{
+                    color: var(--bg-primary-color);
+                }" id="basic-addon2">SEARCH</span>
             </div>
-
         </div>
+        <div class="mx-auto how text-center fw-bold rounded text-nowrap">How It Works</div>
 
     </section>
 
 <!--section p2-->
-    <section class="p2 d-none d-sm-block">
+    <section class="p2 d-none d-sm-block my-1">
+        <div class="mx-auto my-3 text-primary-color fs-3 text-bolder text-center">
+            <samp><p> <strong>[EVENTs] working four simple steps.</strong></p></samp>
+        </div>
         <div class="d-flex justify-content-center">
-            <div>
+            
+            <div class="text-center w50 m-1">
                 <img src="Assets-20220310T082526Z-001/Assets/Icones/locate_icon.svg" style="width: 3vh;" alt="">
                 <p class="text-dark fw-bold">1-Locate: </p> 
                 <p class="text-dark justify-text-center ">It's simple, on [Events] homepage, enter the name of the location you want to spend some good quality time with people and click on search.</p> 
             </div>
-            <div>
+            <div class="text-center w50 m-1">
                 <img src="Assets-20220310T082526Z-001/Assets/Icones/confirm_icon.svg" style="width: 3vh;" alt="">
                 <p class="text-dark fw-bold">2-Confirm or Create: </p> 
                 <p class="text-dark justify-text-center ">Go to check the events nearby the location you reaserched for and apply for any [Events] available. Every [gathering] has a subject, that you can search for too! If no [Events] are available on the location you selected, you can create and share your event.</p> 
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <div>
+            <div class="text-center w50 m-1">
                 <img src="Assets-20220310T082526Z-001/Assets/Icones/go_icon.svg" style="width: 3vh;" alt="">
                 <p class="text-dark fw-bold">3-Go! </p> 
                 <p class="text-dark justify-text-center ">Select the [Events], wait for the scheduled day and go! Be prepared to met new people, create new connections and have a great time!</p> 
             </div>
-            <div>
+            <div class="text-center w50 m-1">
                 <img src="Assets-20220310T082526Z-001/Assets/Icones/haveagoodtime_icon.svg" style="width: 3vh;" alt="">
                 <p class="text-dark fw-bold">4- Have a good time: </p> 
                 <p class="text-dark justify-text-center ">Once you are at the [Events] location, look for the host, enjoy and have fun!</p> 
@@ -97,17 +103,22 @@
     <section class="bg-primary-color containre-fluid d-none d-sm-block">
         <div class="d-none d-sm-flex">
             <div>
-                <p class="text-white fw-bold my-3">
+                <p class="text-white fw-bold my-3 mx-3">
                     [Events] near you
                 </p>
-                <p class="text-white my-2">
+                <p class="text-white my-2 mx-3">
                     Every month a new you might fin [Events] near you and enjoy the company with people whom you can share mutual interests
                 </p>
-                <p class="text-primary-color bg-white">
-                    Find a [Events]
-                </p>
+                <div class="d-flex">
+                    <a href="Search.html" class="text-decoration-none text-primary-color">
+                        <p class="text-primary-color bg-white px-2 mx-3">
+                            Find a [Events]
+                        </p>
+                    </a>
+                </div>
+                
             </div>
-            <img src="Assets-20220310T082526Z-001/Assets/Images/group-2.jpg" style="width: 40vh;" alt="" class="round">
+            <img src="Assets-20220310T082526Z-001/Assets/Images/group-2.jpg" style="width: 40vh;margin-left: auto;height: auto;clip-path:circle();" alt="" class="my-3">
         </div>
     </section>
     <!--section primary-gray for sm-->
@@ -124,7 +135,7 @@
                     Learn more about [Events]
                 </p>
             </div>
-            <img src="Assets-20220310T082526Z-001/Assets/Images/group-3.jpg" style="width: 40vh;" alt="" class="round">
+            <img src="Assets-20220310T082526Z-001/Assets/Images/group-3.jpg" style="width: 40vh;margin-left: auto;height: auto;clip-path:circle();" alt="" class="my-3">
         </div>
 <!--section primary-blue for sm-->
 <section class="bg-primary-blue containre-fluid d-none d-sm-block">
@@ -195,6 +206,7 @@
         </div>
 
     <!-- footer section -->
+    <!-- footer section -->
     <footer>
         <div class="footer-1 d-none d-sm-block">
             <div class="d-flex py-5 mx-auto justify-content-center">
@@ -229,12 +241,12 @@
                 <div class="mx-3 text-center">
                     <p class="fs-4 fw-bold text-white text-center"> Contact</p>
                     <p class="fs-6 text-white mb-0">Have a question or sugestion?</p>
-                    <P class="text-center primary-color fs-6">contact@Events.com</P>
+                    <a href="mailto:contact@events.com?subject=Ask Me Anything" class="text-center primary-color fs-6 text-decoration-none sur"><p class="sur">contact@events.com</p></a>
                 </div>
                 <div class="mx-3 text-center">
                     <p class="fs-4 fw-bold text-white text-center"> About</p>
                     <p class="fs-6 text-white mb-0">[Events] is an online plateform that works to improve and increase social <br>
-                    social life connections, when this nightmare that we are curently living in is over <strong class="primary-color"> learn more.</strong></P>
+                    social life connections, when this nightmare that we are curently living in is over</p><a href="About.html" class="sur text-decoration-none text-primary-color" style="color:primary-color;"><p class="sur">learn more.</p> </a>
                 </div>
             </div>
 
@@ -242,14 +254,14 @@
 
 
         <!-- footer-gray -->
-        <div class="d-grid gap-0">
+        <div class="d-grid gap-0 bg-gray-footer-btn">
             <button class="btn" type="button">
                 <div class="d-flex">   
                     <div class=" d-flex my-auto">
-                        <embed class="invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/facebook_icon.svg" type="image/svg+xml"/>
-                        <embed class="invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/twitter_icon.svg" type="image/svg+xml"/>
-                        <embed class="invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/instagram_icon.svg" type="image/svg+xml"/>
-                        <embed class="invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/linkedin_icon.svg" type="image/svg+xml"/>
+                        <embed class="rso invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/facebook_icon.svg" type="image/svg+xml"/>
+                        <embed class="rso invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/twitter_icon.svg" type="image/svg+xml"/>
+                        <embed class="rso invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/instagram_icon.svg" type="image/svg+xml"/>
+                        <embed class="rso invert mx-2" style="height:3vh" src="Assets-20220310T082526Z-001/Assets/Icones/linkedin_icon.svg" type="image/svg+xml"/>
                     </div>
                     <div class=" d-flex ms-auto">
                         <span><p class="text-light text-center my-2 fs-6"> &copy; 2020 [Events[, Inc.All rights reserved</p></span>

@@ -8,13 +8,28 @@
     --bg-light-gray: #eee;
     
 }
+.body{
+    margin: 0;
+    padding: 0;
+}
 
 .primary-color{
     color: var(--bg-primary-color);
 }
-
+.text-primary-color{
+    color: var(--bg-primary-color);
+}
+.bg-primary-color{
+    background-color: var(--bg-primary-color);
+}
+.border-primary-color{
+    color: var(--bg-primary-color);
+}
 .primary-gray{
     color:var(--bg-primary-gray);
+}
+.bg-primary-gray{
+    background-color:var(--bg-primary-gray);
 }
 .primary-blue{
     color:var(--bg-primary-blue)
@@ -25,6 +40,10 @@
 .gray-footer-btn{
     color:var(--bg-gray-footer-btn)
 }
+.bg-gray-footer-btn{
+    background-color: var(--bg-gray-footer-btn);
+}
+
 .primary-purple{
     color:var(--bg-primary-purple)
 }
@@ -33,9 +52,6 @@
 }
 .bg-light-gray{
     background-color: var(--bg-light-gray);
-}
-.bg-gray-footer-btn{
-    background-color: var(--bg-gray-footer-btn);
 }
 
 p{
@@ -53,21 +69,69 @@ header div embed{
     filter: invert(73%) sepia(6%) saturate(389%) hue-rotate(131deg) brightness(89%) contrast(85%);
 }
 
-/* Mise en place de filtre pour les icônes */
+/*About page style*/
+    /* Mise en place de filtre pour les icônes */
         /*blanchissement*/
     .invert{
         filter: brightness(0) invert(1);
     }
+    /* bouton Apply */
+.Apply{
+    position:relative;
+    height: auto;
+}
+.Apply:before{
+    content:"";
+    position:absolute;
+    top: 0;
+    width: 100%;
+    left: 100%;
+    color: #121e59;
+    z-index: 1;
+    opacity: 01;
+}
+    /*Hover boutton Apply*/
+.Apply:hover{
+    opacity: 1;
+}
 
+/*hover sur*/
+.sur:hover{
+    text-decoration: underline;
+}
 
 
 /* P1 */
 .p1{
+    height: 53vh;
     background-image: url(Assets-20220310T082526Z-001/Assets/Images/group-1.jpg);
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
+
+}
+    /* making textshadow */
+.shadow{
+    text-shadow:0 0 4px #1f1f1f;
+}
+    /* adjusting search bar */
+.search{
+    margin: 2vh;
+    padding: 2vh;
+    width: 80%;
+    background-color: rgba(251,251, 251, 0.7);
 }
 
+.how{
+    margin: 2vh;
+    padding: 2vh;
+    width:fit-content;
+    background-color: rgba(251,251, 251, 0.7);
+}
 
+/* section p2 */
+.w50{
+    width: 50%;
+}
 
 
 /* footer */
