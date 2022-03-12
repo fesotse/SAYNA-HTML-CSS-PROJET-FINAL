@@ -138,8 +138,20 @@ header div embed{
 .w50{
     width: 50%;
 }
-
-
+    /* for mobile in index page */
+.mobile{
+    height: fit-content;
+}
+.mobile figure img{
+    border-radius: 25px;
+    width: 100%;
+}
+.mobile figcaption{
+    position: absolute;
+    bottom: 20px;
+    margin-left: 2%;
+    
+}
 /* footer */
 footer{
     background-color: var(--bg-gray-footer);
