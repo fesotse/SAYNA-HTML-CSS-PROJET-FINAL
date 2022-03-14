@@ -23,7 +23,7 @@
     background-color: var(--bg-primary-color);
 }
 .border-primary-color{
-    color: var(--bg-primary-color);
+    border-color: var(--bg-primary-color);
 }
 .primary-gray{
     color:var(--bg-primary-gray);
@@ -115,7 +115,7 @@ header div embed{
 
 /* P1 */
 .p1{
-    height: 53vh;
+    height: 55vh;
     background-image: url(Assets-20220310T082526Z-001/Assets/Images/group-1.jpg);
     background-size:cover;
     background-position: center;
@@ -127,12 +127,18 @@ header div embed{
 }
     /* adjusting search bar */
 .search{
+    width: 80%;
     margin: 2vh;
     padding: 2vh;
-    width: 80%;
     background-color: rgba(251,251, 251, 0.7);
 }
-
+.search span{
+    justify-content: center;
+}
+#search-sm{
+    position: relative;
+    right: 15px;
+}
 .how{
     margin: 2vh;
     padding: 2vh;
@@ -149,8 +155,8 @@ header div embed{
     height: fit-content;
 }
 .mobile figure img{
-    border-radius: 25px;
     width: 100%;
+    border-radius: 25px;
 }
 .mobile figcaption{
     position: absolute;
